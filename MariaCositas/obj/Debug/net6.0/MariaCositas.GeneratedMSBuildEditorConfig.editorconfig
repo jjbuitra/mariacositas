@@ -8,37 +8,77 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MariaCositas
 build_property.RootNamespace = MariaCositas
-build_property.ProjectDir = C:\Users\sergi\OneDrive\Documents\GitHub\Maria Cositas\mariacositas\MariaCositas\
+build_property.ProjectDir = C:\Users\Jhonj\Documents\JAIRO\Cursos\MariaCositas\mariacositas\MariaCositas\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\sergi\OneDrive\Documents\GitHub\Maria Cositas\mariacositas\MariaCositas
+build_property.MSBuildProjectDirectory = C:\Users\Jhonj\Documents\JAIRO\Cursos\MariaCositas\mariacositas\MariaCositas
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/sergi/OneDrive/Documents/GitHub/Maria Cositas/mariacositas/MariaCositas/Views/Home/Index.cshtml]
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Customers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Customers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sergi/OneDrive/Documents/GitHub/Maria Cositas/mariacositas/MariaCositas/Views/Home/Privacy.cshtml]
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sergi/OneDrive/Documents/GitHub/Maria Cositas/mariacositas/MariaCositas/Views/Shared/Error.cshtml]
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Services/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Services/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Services/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Services/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Services/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sergi/OneDrive/Documents/GitHub/Maria Cositas/mariacositas/MariaCositas/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sergi/OneDrive/Documents/GitHub/Maria Cositas/mariacositas/MariaCositas/Views/_ViewImports.cshtml]
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sergi/OneDrive/Documents/GitHub/Maria Cositas/mariacositas/MariaCositas/Views/_ViewStart.cshtml]
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sergi/OneDrive/Documents/GitHub/Maria Cositas/mariacositas/MariaCositas/Views/Shared/_Layout.cshtml]
+[C:/Users/Jhonj/Documents/JAIRO/Cursos/MariaCositas/mariacositas/MariaCositas/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dwlbm6xzgx

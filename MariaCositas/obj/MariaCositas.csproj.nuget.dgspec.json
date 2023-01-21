@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\Maria Cositas\\mariacositas\\MariaCositas\\MariaCositas.csproj": {}
+    "C:\\Users\\Jhonj\\Documents\\JAIRO\\Cursos\\MariaCositas\\mariacositas\\MariaCositas\\MariaCositas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\Maria Cositas\\mariacositas\\MariaCositas\\MariaCositas.csproj": {
+    "C:\\Users\\Jhonj\\Documents\\JAIRO\\Cursos\\MariaCositas\\mariacositas\\MariaCositas\\MariaCositas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\Maria Cositas\\mariacositas\\MariaCositas\\MariaCositas.csproj",
+        "projectUniqueName": "C:\\Users\\Jhonj\\Documents\\JAIRO\\Cursos\\MariaCositas\\mariacositas\\MariaCositas\\MariaCositas.csproj",
         "projectName": "MariaCositas",
-        "projectPath": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\Maria Cositas\\mariacositas\\MariaCositas\\MariaCositas.csproj",
-        "packagesPath": "C:\\Users\\sergi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\Maria Cositas\\mariacositas\\MariaCositas\\obj\\",
+        "projectPath": "C:\\Users\\Jhonj\\Documents\\JAIRO\\Cursos\\MariaCositas\\mariacositas\\MariaCositas\\MariaCositas.csproj",
+        "packagesPath": "C:\\Users\\Jhonj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhonj\\Documents\\JAIRO\\Cursos\\MariaCositas\\mariacositas\\MariaCositas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sergi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhonj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
