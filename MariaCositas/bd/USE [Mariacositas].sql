@@ -1,0 +1,59 @@
+USE [Mariacositas]
+GO
+
+/****** Object:  Table [dbo].[Service]    Script Date: 21/01/2023 2:57:51 p. m. ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Service](
+	[Id_Service] [int] NOT NULL,
+	[Count] [nvarchar](50) NOT NULL,
+	[Service_Type] [int] NOT NULL,
+	[Value] [int] NOT NULL,
+	[Date_Creation] [datetime] NOT NULL,
+	[Payment] [int] NOT NULL,
+ CONSTRAINT [PK_Service] PRIMARY KEY CLUSTERED 
+(
+	[Id_Service] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Reporting](
+	[Id_Reporting] [int] NOT NULL,
+	[Id_Customer] [int] NOT NULL,
+	[Creation_Date] [datetime] NOT NULL,
+ CONSTRAINT [PK_Reporting] PRIMARY KEY CLUSTERED 
+(
+	[Id_Reporting] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[customer](
+	[Id_Customer] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](40) NOT NULL,
+	[Phone] [varchar](40) NOT NULL,
+	[Creation_Date] [datetime] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id_Customer] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
