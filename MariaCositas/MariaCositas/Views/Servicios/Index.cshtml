@@ -4,10 +4,13 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Servicio</h1>
 
-<p>
+@*<p>
     <a asp-action="Create">Create New</a>
+</p>*@
+<p>
+    <input type="submit" value="Crear Nuevo" class="btn btn-primary" />
 </p>
 <table class="table">
     <thead>
@@ -31,29 +34,34 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cantidad)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdTipoServicio)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FechaCreacion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Pagado)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdCliente)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdServicio">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdServicio">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdServicio">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cantidad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdTipoServicio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaCreacion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pagado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdCliente)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdServicio">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdServicio">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdServicio">Delete</a>
+
+                    @*<input type="submit" id="@item.IdServicio" class="btn btn-primary" />
+                    <input type="submit" id="@item.IdServicio" class="btn btn-primary" />
+                    <input type="submit" id="@item.IdServicio" class="btn btn-primary" />*@
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
